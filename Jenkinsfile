@@ -24,8 +24,9 @@ pipeline{
          }
         }
            stage ('deploy to tomcat') {
-            sh 'cp target/*.war /opt/apache-tomcat-7.0.94/webapps/'
-       }             
-
+              steps{
+               sh 'cp target/*.war /opt/apache-tomcat-7.0.94/webapps/'
+            }             
+         }
      }
    }
