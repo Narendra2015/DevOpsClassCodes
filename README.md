@@ -13,6 +13,7 @@ Running the example from the command line
 ```
 $ mvn jetty:run
 ```
+addding just lines -0001
 
 Open [http://localhost:8080/](http://localhost:8080/)
 
